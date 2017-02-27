@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProgramSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <About>
+    <YearFrom>2007</YearFrom>
+    <YearTo>2015</YearTo>
+    <ReleaseVersion>2015.10.26</ReleaseVersion>
+  </About>
+  <LoginProcedure>execute procedure LOG_LOGIN('{0}', '{1}', '{2}')</LoginProcedure>
+  <LogoutProcedure>execute procedure LOG_LOGOUT('{0}')</LogoutProcedure>
+  <DBMessageGetProcedure>
+    select dbuser, messagetext
+    from DBEVENT_GET_NEXT_EVENT('{dbuser}','{lastcall}')
+  </DBMessageGetProcedure>
+  <DBMessageGetProcedureInterval>10</DBMessageGetProcedureInterval>
+  <FavouritesImageSize>48</FavouritesImageSize>
+  <AllowScroll>true</AllowScroll>
+  <NoDoubleLoad>false</NoDoubleLoad>
+  <MainMenuNavigator>true</MainMenuNavigator>
+  <TryToFixWorkitemsHeight>true</TryToFixWorkitemsHeight>
+  <SplitUsersLayout>true</SplitUsersLayout>
+  <ShowSycret>false</ShowSycret>
+  <ShowAutoFilter>false</ShowAutoFilter>
+  <InvertButtons>false</InvertButtons>
+  <EnableSchedulerMenu>false</EnableSchedulerMenu>
+  <AllowFullSearch>true</AllowFullSearch>
+  <TimePeriod>30</TimePeriod>
+  <PhoneMask>(000) 000-00-00</PhoneMask>
+  <IdealStandartMode>false</IdealStandartMode>
+  <MainViewsDockable>false</MainViewsDockable>
+  <ShowMainMenu>true</ShowMainMenu>
+  <MetaRole>1</MetaRole>
+  <DebugMode>false</DebugMode>
+  <CloseEditorOnSave>false</CloseEditorOnSave>
+  <UseMessageQueue>false</UseMessageQueue>
+  <DefaultLogin>Александр</DefaultLogin>
+  <DemoVersion>false</DemoVersion>
+  <DemoVersionCustomButtons>false</DemoVersionCustomButtons>
+  <DemoVersionProc>execute procedure sys_is_table_allowed('{0}')</DemoVersionProc>
+  <DemoVersionMaxRecordCount>0</DemoVersionMaxRecordCount>
+  <PictureAddress>c:\sycret_files</PictureAddress>
+  <WaitMetaInit>true</WaitMetaInit>
+  <HardDebugMode>false</HardDebugMode>
+  <Roles>
+    <Role RoleID="1">
+      <SchedulerGlobalSettings>
+        <StartTime>2010-11-10T07:30:00</StartTime>
+        <EndTime>2010-11-10T22:00:00</EndTime>
+      </SchedulerGlobalSettings>
+      <ShellTitle>SCRM - </ShellTitle>
+      <DefaultNavigatorImage>16uslugi.png</DefaultNavigatorImage>
+      <LogoImage>logo.png</LogoImage>
+      <RegisterAddress />
+      <TranslationManager>
+        <ButtonTranslations>
+          <ButtonTranslation Caption="" Tooltip="Добавить новую запись" Function="AddNew" />
+          <ButtonTranslation Caption="" Tooltip="Построение диаграмм, гистограмм и графиков" Function="Diagram" />
+          <ButtonTranslation Caption="" Tooltip="Удалить" Function="Delete" />
+          <ButtonTranslation Caption="" Tooltip="В Excel" Function="Excel" />
+          <ButtonTranslation Caption="" Tooltip="Обновить" Function="Refresh" />
+          <ButtonTranslation Caption="" Tooltip="Печать" Function="Print" />
+          <ButtonTranslation Caption="" Tooltip="Сохранить" Function="Save" />
+        </ButtonTranslations>
+      </TranslationManager>
+      <ProgParams>
+        <ProgParam PString="">
+          <ParentOpenFromNavigator />
+          <CurrentOpenFromNavigator>
+            <Tab>
+              <PanName>SCRM Контроль качества менеджер</PanName>
+              <ItemName>План работ на сегодня</ItemName>
+            </Tab>
+          </CurrentOpenFromNavigator>
+          <LaunchPrograms />
+        </ProgParam>
+      </ProgParams>
+      <FavouriteItems>
+        <FavouriteItem Caption="План работ на сегодня" Icon="rasptabl48.png">
+          <NavigatorTabs>
+            <Tab>
+              <PanName>SCRM Контроль качества менеджер</PanName>
+              <ItemName>План работ на сегодня</ItemName>
+            </Tab>
+          </NavigatorTabs>
+        </FavouriteItem>
+        <FavouriteItem Caption="Контроль качества" Icon="control48.png">
+          <NavigatorTabs>
+            <Tab>
+              <PanName>SCRM Контроль качества менеджер</PanName>
+              <ItemName>Контроль качества (сегодня)</ItemName>
+            </Tab>
+          </NavigatorTabs>
+        </FavouriteItem>
+        <FavouriteItem Caption="Расписание" Icon="rasp48.png">
+          <NavigatorTabs>
+            <Tab>
+              <PanName>Работа предприятия</PanName>
+              <ItemName>Расписание</ItemName>
+            </Tab>
+          </NavigatorTabs>
+        </FavouriteItem>
+        <FavouriteItem Caption="Мои клиенты" Icon="clients48.png">
+          <NavigatorTabs>
+            <Tab>
+              <PanName>Работа предприятия</PanName>
+              <ItemName>Мои клиенты</ItemName>
+            </Tab>
+          </NavigatorTabs>
+        </FavouriteItem>
+        <FavouriteItem Caption="Все клиенты" Icon="clients48.png">
+          <NavigatorTabs>
+            <Tab>
+              <PanName>Работа предприятия</PanName>
+              <ItemName>Все клиенты</ItemName>
+            </Tab>
+          </NavigatorTabs>
+        </FavouriteItem>
+        <FavouriteItem Caption="Контакты" Icon="clients48.png">
+          <NavigatorTabs>
+            <Tab>
+              <PanName>Работа предприятия</PanName>
+              <ItemName>Контактные лица</ItemName>
+            </Tab>
+          </NavigatorTabs>
+        </FavouriteItem>
+        <FavouriteItem Caption="Счета" Icon="usl48.png">
+          <NavigatorTabs>
+            <Tab>
+              <PanName>Работа предприятия</PanName>
+              <ItemName>Счета</ItemName>
+            </Tab>
+          </NavigatorTabs>
+        </FavouriteItem>
+        <FavouriteItem Caption="Инструменты" Icon="tov48.png">
+          <NavigatorTabs>
+            <Tab>
+              <PanName>Работа предприятия</PanName>
+              <ItemName>Инструменты</ItemName>
+            </Tab>
+          </NavigatorTabs>
+        </FavouriteItem>
+        <FavouriteItem Caption="Товары" Icon="tov48.png">
+          <NavigatorTabs>
+            <Tab>
+              <PanName>Складской учет</PanName>
+              <ItemName>Товары</ItemName>
+            </Tab>
+          </NavigatorTabs>
+        </FavouriteItem>
+      </FavouriteItems>
+    </Role>
+    <Role RoleID="2">
+      <ShellTitle>SCRM - </ShellTitle>
+      <DefaultNavigatorImage>16uslugi.png</DefaultNavigatorImage>
+      <LogoImage>logo.png</LogoImage>
+      <RegisterAddress />
+      <TranslationManager>
+        <ButtonTranslations>
+          <ButtonTranslation Caption="" Tooltip="Добавить новую запись" Function="AddNew" />
+          <ButtonTranslation Caption="" Tooltip="Построение диаграмм, гистограмм и графиков" Function="Diagram" />
+          <ButtonTranslation Caption="" Tooltip="Удалить" Function="Delete" />
+          <ButtonTranslation Caption="" Tooltip="В Excel" Function="Excel" />
+          <ButtonTranslation Caption="" Tooltip="Обновить" Function="Refresh" />
+          <ButtonTranslation Caption="" Tooltip="Печать" Function="Print" />
+          <ButtonTranslation Caption="" Tooltip="Сохранить" Function="Save" />
+        </ButtonTranslations>
+      </TranslationManager>
+      <ProgParams>
+        <ProgParam PString="">
+          <ParentOpenFromNavigator />
+          <CurrentOpenFromNavigator>
+            <Tab>
+              <PanName>SCRM Контроль качества менеджер</PanName>
+              <ItemName>План работ на сегодня</ItemName>
+            </Tab>
+          </CurrentOpenFromNavigator>
+          <LaunchPrograms />
+        </ProgParam>
+      </ProgParams>
+      <FavouriteItems>
+        <FavouriteItem Caption="План работ на сегодня" Icon="rasptabl48.png">
+          <NavigatorTabs>
+            <Tab>
+              <PanName>SCRM Контроль качества менеджер</PanName>
+              <ItemName>План работ на сегодня</ItemName>
+            </Tab>
+          </NavigatorTabs>
+        </FavouriteItem>
+        <FavouriteItem Caption="Контроль качества" Icon="control48.png">
+          <NavigatorTabs>
+            <Tab>
+              <PanName>SCRM Контроль качества менеджер</PanName>
+              <ItemName>Контроль качества (сегодня)</ItemName>
+            </Tab>
+          </NavigatorTabs>
+        </FavouriteItem>
+        <FavouriteItem Caption="Расписание" Icon="rasp48.png">
+          <NavigatorTabs>
+            <Tab>
+              <PanName>Работа предприятия</PanName>
+              <ItemName>Расписание</ItemName>
+            </Tab>
+          </NavigatorTabs>
+        </FavouriteItem>
+        <FavouriteItem Caption="Инструменты" Icon="tov48.png">
+          <NavigatorTabs>
+            <Tab>
+              <PanName>Работа предприятия</PanName>
+              <ItemName>Инструменты</ItemName>
+            </Tab>
+          </NavigatorTabs>
+        </FavouriteItem>
+        <FavouriteItem Caption="Мои клиенты" Icon="clients48.png">
+          <NavigatorTabs>
+            <Tab>
+              <PanName>Работа предприятия</PanName>
+              <ItemName>Мои клиенты</ItemName>
+            </Tab>
+          </NavigatorTabs>
+        </FavouriteItem>
+        <FavouriteItem Caption="Услуги" Icon="usl48.png">
+          <NavigatorTabs>
+            <Tab>
+              <PanName>Справочники</PanName>
+              <ItemName>Услуги</ItemName>
+            </Tab>
+          </NavigatorTabs>
+        </FavouriteItem>
+        <FavouriteItem Caption="Товары" Icon="tov48.png">
+          <NavigatorTabs>
+            <Tab>
+              <PanName>Складской учет</PanName>
+              <ItemName>Товары</ItemName>
+            </Tab>
+          </NavigatorTabs>
+        </FavouriteItem>
+      </FavouriteItems>
+    </Role>
+    <Role RoleID="3">
+      <ShellTitle>SCRM - </ShellTitle>
+      <DefaultNavigatorImage>16uslugi.png</DefaultNavigatorImage>
+      <LogoImage>logo.png</LogoImage>
+      <RegisterAddress />
+      <TranslationManager>
+        <ButtonTranslations>
+          <ButtonTranslation Caption="" Tooltip="Добавить новую запись" Function="AddNew" />
+          <ButtonTranslation Caption="" Tooltip="Построение диаграмм, гистограмм и графиков" Function="Diagram" />
+          <ButtonTranslation Caption="" Tooltip="Удалить" Function="Delete" />
+          <ButtonTranslation Caption="" Tooltip="В Excel" Function="Excel" />
+          <ButtonTranslation Caption="" Tooltip="Обновить" Function="Refresh" />
+          <ButtonTranslation Caption="" Tooltip="Печать" Function="Print" />
+          <ButtonTranslation Caption="" Tooltip="Сохранить" Function="Save" />
+        </ButtonTranslations>
+      </TranslationManager>
+      <ProgParams>
+        <ProgParam PString="">
+          <ParentOpenFromNavigator />
+          <CurrentOpenFromNavigator>
+            <Tab>
+              <PanName>Контроль дисциплины</PanName>
+              <ItemName>План работ на сегодня</ItemName>
+            </Tab>
+          </CurrentOpenFromNavigator>
+          <LaunchPrograms />
+        </ProgParam>
+      </ProgParams>
+      <FavouriteItems>
+        <FavouriteItem Caption="План работ на сегодня" Icon="rasptabl48.png">
+          <NavigatorTabs>
+            <Tab>
+              <PanName>Контроль дисциплины</PanName>
+              <ItemName>План работ на сегодня</ItemName>
+            </Tab>
+          </NavigatorTabs>
+        </FavouriteItem>
+        <FavouriteItem Caption="Контроль качества" Icon="control48.png">
+          <NavigatorTabs>
+            <Tab>
+              <PanName>МП</PanName>
+              <ItemName>МП - KPI - Дисциплина</ItemName>
+            </Tab>
+          </NavigatorTabs>
+        </FavouriteItem>
+        <FavouriteItem Caption="Расписание" Icon="rasp48.png">
+          <NavigatorTabs>
+            <Tab>
+              <PanName>Работа предприятия</PanName>
+              <ItemName>Расписание</ItemName>
+            </Tab>
+          </NavigatorTabs>
+        </FavouriteItem>
+        <FavouriteItem Caption="Мои клиенты" Icon="clients48.png">
+          <NavigatorTabs>
+            <Tab>
+              <PanName>Работа предприятия</PanName>
+              <ItemName>Мои клиенты</ItemName>
+            </Tab>
+          </NavigatorTabs>
+        </FavouriteItem>
+      </FavouriteItems>
+    </Role>
+  </Roles>
+</ProgramSettings>
