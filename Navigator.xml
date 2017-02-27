@@ -17,7 +17,7 @@
 		<DefaultButtons><DefaultButton Function="Delete"><Visible>false</Visible></DefaultButton></DefaultButtons>
       		<ColumnsMeta>
                		<Column Id="ID"><Name>ID</Name><Visible>false</Visible></Column>
-                	<Column Id="DOCTORNAME"><Name>Менеджер123</Name></Column>
+                	<Column Id="DOCTORNAME"><Name>Менеджер</Name></Column>
                 	<Column Id="ISON"><Name>Подключен?</Name></Column>
                 	<Column Id="SERVICENAME"><Name>Сервис</Name></Column>
                 	<Column Id="SERVICESTATUS"><Name>Статус</Name></Column>
@@ -126,7 +126,7 @@
 		<Colorizers>
 			<Colorizer Type="Equal"><Color>LightYellow</Color><Value1>Новый вопрос</Value1><Field>KBSTATUS</Field></Colorizer>
 			<Colorizer Type="Equal"><Color>LightGreen</Color><Value1>Есть ответ</Value1><Field>KBSTATUS</Field></Colorizer>
-			<Colorizer Type="Equal"><Color>LightSkyBlue</Color><Value1>На модерации23</Value1><Field>KBSTATUS</Field></Colorizer>
+			<Colorizer Type="Equal"><Color>LightSkyBlue</Color><Value1>На модерации</Value1><Field>KBSTATUS</Field></Colorizer>
 			<Colorizer Type="Equal"><Color>LightPink</Color><Value1>Отклонён</Value1><Field>KBSTATUS</Field></Colorizer>
 		</Colorizers>
 	</Item>
